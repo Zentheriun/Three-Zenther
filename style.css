@@ -1,8 +1,14 @@
 @font-face {
-    font-family: 'Superfats';
-    src: url('fonts/Superfats.ttf') format('truetype');
+    font-family: 'Superfats'; /* Choose a name for your font */
+    src: url('https://raw.githubusercontent.com/Zentheriun/Three-Zenther/main/assets/sources/Superfats.ttf') format('truetype');
+    /* You might add other formats like .woff2, .woff for better browser support */
     font-weight: normal;
     font-style: normal;
+}
+
+/* Then you can apply it to your elements */
+body {
+    font-family: 'Superfats', sans-serif;
 }
 
 * {
