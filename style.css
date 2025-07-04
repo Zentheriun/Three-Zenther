@@ -1,16 +1,15 @@
 @font-face {
-    font-family: 'Superfats'; /* Choose a name for your font */
-    src: url('https://raw.githubusercontent.com/Zentheriun/Three-Zenther/main/assets/sources/Superfats.ttf') format('truetype');
-    /* You might add other formats like .woff2, .woff for better browser support */
+    font-family: 'Superfats'; /* El nombre que usarás para referenciar la fuente en tu CSS */
+    src: url('../assets/fonts/Superfats.ttf') format('truetype');
+    /* Asegúrate de que la ruta sea correcta desde tu CSS a la fuente */
     font-weight: normal;
     font-style: normal;
 }
 
-/* Then you can apply it to your elements */
-body {
+/* Ahora puedes usarla en tus selectores CSS, por ejemplo: */
+.main-title, .glitch, h2 {
     font-family: 'Superfats', sans-serif;
 }
-
 * {
     margin: 0;
     padding: 0;
